@@ -1,0 +1,1 @@
+import{h as a}from"./HY_Request-a32531ce.js";import{z as i}from"./index-bf93e4ef.js";function e(){return a.get({url:"/city/all"})}const r=i("city",{state(){return{allCities:{},clickCity:{cityName:"广州"}}},actions:{async fetchAllCityDataAction(){const t=await e();this.allCities=t.data.data}}});export{r as u};

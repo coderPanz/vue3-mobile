@@ -1,0 +1,44 @@
+body {
+  font-size: 14px;
+}
+:root {
+  --primary-color: #007aff;
+  /* 设置全局search-icon颜色 */
+  --van-search-left-icon-color: var(--primary-color) !important;
+  --tjc-theme-linear-gradient: linear-gradient(to left, #0076f5 0%, #00a7fa 100%);
+  --van-primary-color: var(--primary-color) !important;
+  --van-bgc-color: rgb(63, 73, 84);
+  --detail-color: #666;
+  --order-state-color: #333;
+}
+
+/* 封装切换页面覆盖底部导航栏的样式 */
+/* 可以对给css进行封装以便在其他组件中使用 */
+.cover-page {
+  position: relative;
+  z-index: 9;
+  height: 100vh;
+  background-color: #fff;
+
+  /* 设置在当前city视图中滚动而不是在整个页面上滚动 */
+  overflow-y: auto;
+}
+
+.icon_check {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: url(../img/detail//icon_check.png) 0 0 / 100% 100%;
+}
+/* .left {
+  border-top: 1px solid orange;
+  border-right: -1px solid orange;
+  border-left: 1px solid orange;
+  border-bottom: 1px solid orange;
+}
+.right {
+  border-top: 1px solid orange;
+  border-right: 1px solid orange;
+  border-bottom: 1px solid orange;
+  border-left: 1px solid orange;
+} */

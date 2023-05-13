@@ -1,1 +1,0 @@
-import{_ as r,o,c as s,b as t,G as a}from"./index-bf93e4ef.js";const c={},n={class:"app"};function l(e,u){return o(),s("div",n,[t("h2",null,a(e.$route.query.startDate),1),t("h2",null,a(e.$route.query.endDate),1)])}const d=r(c,[["render",l]]);export{d as default};

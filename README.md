@@ -1,4 +1,4 @@
-# Vue3_mobileProject
+# Vue3_移动端旅游App
 - 项目类型：移动端旅游App
 - 技术栈：vue3(Pinia + Router) + vite + Axios
 - 重点：架构设计-组件化开发-组件复用-项目架构层级的统一
